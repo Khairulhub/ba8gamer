@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+    }
+    ul li{
+        margin: 36px 0;
+    }
+}
