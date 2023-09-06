@@ -19,6 +19,14 @@
 .secondary-bg{
  background-color: var(--blue);
 }
+.bg-secondary{
+    background-color: var(--secondary);
+}
+
+li{
+    list-style: none;
+    color: white;
+}
 
 *{
     margin: 0;
@@ -52,6 +60,9 @@
 .mr-20{
     margin-right: 30px;
 }
+.mt-20{
+    margin-top: 20px;
+}
 .mt-48{
     margin-top: 48px;
 }
@@ -63,6 +74,9 @@ a{
     text-decoration: none;
 }
 
+.p-120{
+    padding: 120px 0;
+}
 
 .container-fluid{
     width: 100%;
@@ -417,4 +431,11 @@ border-radius: 8px;
 }
 .card-img1 p:hover{
     color: var(--primary);
+}
+
+
+.social-icon i{
+    color: #fff;
+    font-size: 40px;
+    /* margin-right: 10px; */
 }

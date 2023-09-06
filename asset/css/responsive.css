@@ -99,6 +99,136 @@
         font-weight:500 ;
     }
 
+    li{
+        font-size: 10px;
+    }
 
 
+
+}
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 90%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+    ul{
+        /* flex-direction: column; */
+    }
+    ul li{
+        margin: 36px 0;
+ 
+    }
+    ul li a{
+        font-size: 14px;
+    }
+   
+    .hero{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero h1{
+        background-image: var(--gradint);
+        -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+        text-align: center;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+    .logo > a{
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .order-2{
+        order: 2;
+    }
+    .prder-1{
+        width: 100%;
+        height: 100%;
+        order: 1;
+    }
+
+    .gamer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .button{
+        text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 17px 26px;
+    border-radius: 48px;
+    margin-top: 32px;
+    margin-right: 1rem;
+    border: 0;
+    }
+    .gamer > h2,p,h6,h5{
+        text-align: center;
+        float: none;
+    }
+    .float-r{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    h2{
+        font-size: 28px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .funny-video{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .instantly{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .instantly p{
+        width: 100%;
+    }
+    .instantly > img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .relative img {
+        width: 100%;
+        height: 65%;
+    }
+
+    .absulote > img{
+        position: absolute;
+        bottom: -10px;
+        left: -30px;
+        width: 146.5px;
+        height: 172.083px;
+    border-radius: 8px;
+    }
+
+    .card-option {
+        width: calc(33.33% - 10px); 
+    }
+    .card-img1 > img{
+        width: 20px;
+        height: 20px;
+    }
+    li{
+        font-size: 18px;
+    }
+    
 }
