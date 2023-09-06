@@ -62,8 +62,42 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .instantly{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .instantly p{
+        width: 100%;
+    }
+    .instantly > img{
+        width: 50%;
+        height: 50%;
+    }
 
+    .relative img {
+        width: 100%;
+        height: 65%;
+    }
 
+    .absulote > img{
+        position: absolute;
+        bottom: -10px;
+        left: -30px;
+        width: 146.5px;
+        height: 172.083px;
+    border-radius: 8px;
+    }
+
+    .card-option {
+        width: calc(33.33% - 10px); 
+    }
+    .card-img1 > img{
+        width: 20px;
+        height: 20px;
+    }
+    .card-img1 p{
+        font-size: 10px;
+        font-weight:500 ;
+    }
 
 
 
