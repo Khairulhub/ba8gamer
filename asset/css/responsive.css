@@ -26,6 +26,32 @@
         order: 1;
     }
 
+    .gamer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .button{
+        text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 17px 26px;
+    border-radius: 48px;
+    margin-top: 32px;
+    margin-right: 1rem;
+    border: 0;
+    }
+    .gamer > h2,p,h6,h5{
+        text-align: center;
+        float: none;
+    }
+    .float-r{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
 
 
 
